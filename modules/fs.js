@@ -20,7 +20,7 @@ fs.writeFile(path.join(__dirname, 'notes', 'text.txt'), 'senga qanday qizla yoqa
     console.log('papka');
 
 
-    fs.appendFile(path.join(__dirname, 'notes', 'text.txt'), ' nega aynan ijobatxon', err =>{
+    fs.appendFile(path.join(__dirname, 'notes', 'text.txt'), ' nega aynan u', err =>{
         if (err) throw new Error()
 
         console.log('change');
